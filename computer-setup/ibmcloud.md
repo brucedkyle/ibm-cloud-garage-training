@@ -37,6 +37,11 @@ If you do not see `container-service` then do the following:
 
 (At the time of this writing it's `ibmcloud plugin install container-service`)
 
+You can optionally install:
+
+- Container registry (currently `ibmcloud plugin install container-registry`)
+- The IBM Cloud Kubernetes Service observability plug-in for monitoring the cluster (currently `ibmcloud plugin install observe-service`)
+
 ## Access the OpenShift Cluster
 
 In order to login to the cluster from the command line, you must first login on the website.
